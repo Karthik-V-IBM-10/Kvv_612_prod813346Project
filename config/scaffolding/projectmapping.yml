@@ -1,0 +1,23 @@
+version: "1.0"
+projectName: Kvv_612_prod813346Project
+runtimes:
+- runtimeAlias: Cloud Designtime
+  assets:
+  - name: fld_156294613_stage00.projects.fl210262ca63a740ceb46d5dbcdd9c1645.integrations:fcs
+    type: flow
+    stepId: /0
+    reference: fld_156294613_stage00.projects.fl210262ca63a740ceb46d5dbcdd9c1645.WmPackageServiceProvider.GB_1:readGlobalvariable
+  - name: fld_156294613_stage00.projects.fl210262ca63a740ceb46d5dbcdd9c1645.integrations:fcs
+    type: flow
+    stepId: /1
+    reference: fld_156294613_stage00.projects.fl210262ca63a740ceb46d5dbcdd9c1645.WmPackageServiceProvider.project.kvv_612_prod813346.integrations:tppdaf
+- runtimeAlias: kvv_612_prod813346
+  assets:
+  - name: fld_156294613_stage00.projects.fl210262ca63a740ceb46d5dbcdd9c1645.integrations:fcs
+    type: flow
+    stepId: /2
+    reference: fld_156294613_stage00.projects.fl210262ca63a740ceb46d5dbcdd9c1645.WmPackageServiceProvider.GB_1:readGlobalvariable
+  - name: fld_156294613_stage00.projects.fl210262ca63a740ceb46d5dbcdd9c1645.integrations:fcs
+    type: flow
+    stepId: /3
+    reference: fld_156294613_stage00.projects.fl210262ca63a740ceb46d5dbcdd9c1645.WmPackageServiceProvider.project.kvv_612_prod813346.integrations:tppdaf
