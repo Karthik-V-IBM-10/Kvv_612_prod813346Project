@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Values version="2.0">
-  <value name="enabled">yes</value>
+  <value name="enabled">no</value>
   <value name="lazy_load">yes</value>
   <value name="system_package">no</value>
   <value name="version">1.0</value>
@@ -12,18 +12,17 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="TPP_services_in_FCS">1.0</value>
     <value name="DADA_GlobalVariable1">1.0</value>
-    <value name="SIQAJDBCAdapterTests">1.0</value>
   </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">8</value>
+  <value name="build">9</value>
   <null name="description"/>
   <value name="created_date">06-12-2025 07:48:23 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-12-06T08:33:57.06578003Z</value>
+  <value name="lastUpdated">2025-12-08T02:48:39.598265629Z</value>
   <value name="wmProjectId">fl210262ca63a740ceb46d5dbcdd9c1645</value>
   <value name="creator">Karthik V</value>
 </Values>
