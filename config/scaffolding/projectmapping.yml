@@ -1,7 +1,7 @@
 version: "1.0"
 projectName: Kvv_612_prod813346Project
 runtimes:
-- runtimeAlias: kvv_612_prod813346
+- runtimeAlias: kvv_812_prod813346_FIPS
   assets:
   - name: fld_156294613_stage00.projects.fl210262ca63a740ceb46d5dbcdd9c1645.integrations:fcs
     type: flow
